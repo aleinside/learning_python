@@ -11,6 +11,21 @@
 ## 1. Primitive Datatypes and Operators
 ####################################################
 
+# Stringhe - immutabili, qualsiasi operazione genera nuove stringhe
+#
+# Liste - sequenze ordinate, mutabili
+# Tuple - sequenze ordinate, immutabili
+#
+# Dizionari - non ordinate, devono avere chiavi immutabili (hash)
+#
+# Set - non indicizzato, non ordinato, senza duplicati, elementi hashable and immutable. [union, difference, symmetric difference, subset testing]
+#
+# Set -> mutabile
+# Frozenset -> immutabile
+
+###
+###
+
 # You have numbers
 3  # => 3
 
@@ -134,6 +149,7 @@ bool("")  # => False
 bool([])  # => False
 bool({})  # => False
 bool(())  # => False
+
 
 ####################################################
 ## 2. Variables and Collections
